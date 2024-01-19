@@ -75,7 +75,6 @@ function App() {
         +
       </button>
 
-
       {/* Create New Todo Column */}
       <Modal isOpen={isCreateModalVisible} onClose={handleCloseCreateModal}>
         <TodoForm name={`Create new Todo`} onSubmit={handleCreateNewTodo} />
